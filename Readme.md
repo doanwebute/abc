@@ -35,8 +35,8 @@
   > exec > >(tee /var/log/user-data.log|logger -t user-data -s 2>/dev/console) 2>&1 <br />
   > curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash <br />
   > export NVM_DIR="$HOME/.nvm" <br />
-> [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm <br />
-> [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" <br />
+  > [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm <br />
+  > [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" <br />
   > nvm install node <br />
   > sudo rm /var/lib/apt/lists/lock <br />
   > sudo rm /var/cache/apt/archives/lock <br />
@@ -56,8 +56,8 @@
   > exec > >(tee /var/log/user-data.log|logger -t user-data -s 2>/dev/console) 2>&1 <br />
   > curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash <br />
   > export NVM_DIR="$HOME/.nvm" <br />
-> [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm <br />
-> [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" <br />
+  > [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm <br />
+  > [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" <br />
   > nvm install node <br />
   > sudo rm /var/lib/apt/lists/lock <br />
   > sudo rm /var/cache/apt/archives/lock <br />
